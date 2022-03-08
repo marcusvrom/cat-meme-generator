@@ -1,0 +1,25 @@
+html, body {
+    background-color: rgb(235, 235, 235);
+}
+
+.container {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 2px solid #c1c1c1;
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+input:focus {
+    border: 2px solid #7e7e7e;
+    outline: none;
+}
